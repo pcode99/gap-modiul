@@ -7,9 +7,32 @@
     <style>
         .container{
             display: grid;
-            grid-template-columns: repeat(4, 1fr);
+            grid-template-columns: repeat(3, 1fr);
             gap: 20px;
+            padding: 20px;
+            max-width: 1440px;
+
         }
+        .food{
+            border: 2px solid rgb(82, 67, 48);
+            padding: 20px;
+            border-radius: 20px;
+        }
+        
+        .food img{
+            width: 100%;
+            border-radius: 10px;
+            border: 2px solid black;
+        }
+        .food img:hover{
+            border: 2px solid red;
+        }
+   @media screen and (max-width:576px){
+    .container{
+        grid-template-columns: repeat(1,1fr);
+    }
+   }
+         
     </style>
 </head>
 <body>
@@ -89,42 +112,7 @@
                     <p>price:12</p>
                     <p>Alias ducimus maxime dignissimos asperiores animi ab necessitatibus quia non, repellat rem ex, esse officiis cum, accusamus laborum minus recusandae?</p>
                 </div>
-                <div class="food">
-                    <img src="food.webp" alt="">
-                    <h3>food item 13</h3>
-                    <p>price:13</p>
-                    <p>Autem, quos animi! Explicabo unde eos ut minima libero, quos suscipit, nobis sed ipsum vitae sapiente sint commodi cupiditate repellat.</p>
-                </div>
-                <div class="food">
-                    <img src="food.webp" alt="">
-                    <h3>food item 14</h3>
-                    <p>price:14</p>
-                    <p>Earum, expedita incidunt quis illum recusandae blanditiis. Odit pariatur asperiores quaerat modi atque, perferendis, quod expedita nulla tenetur neque in.</p>
-                </div>
-                <div class="food">
-                    <img src="food.webp" alt="">
-                    <h3>food item 15</h3>
-                    <p>price:15</p>
-                    <p>Fugiat, magni! Consequuntur sequi, consequatur provident cum suscipit amet laboriosam eum soluta corporis deleniti! Blanditiis, aut. Quas, ut. Nisi, repellat?</p>
-                </div>
-                <div class="food">
-                    <img src="food.webp" alt="">
-                    <h3>food item 16</h3>
-                    <p>price:16</p>
-                    <p>A odit repellendus quam exercitationem modi tempore, sed iure reprehenderit culpa amet fuga debitis totam quisquam voluptatem possimus placeat pariatur?</p>
-                </div>
-                <div class="food">
-                    <img src="food.webp" alt="">
-                    <h3>food item 17</h3>
-                    <p>price:17</p>
-                    <p>Laboriosam blanditiis inventore sit quas tempora quia ipsum consectetur ad necessitatibus. Sequi iste dignissimos, deleniti magni debitis at quidem tempora.</p>
-                </div>
-                <div class="food">
-                    <img src="food.webp" alt="">
-                    <h3>food item 18</h3>
-                    <p>price:18</p>
-                    <p>Culpa, harum autem quod ipsum aliquam aut soluta, ullam eius praesentium facere reiciendis porro iste dolore distinctio aspernatur ipsa. Hic.</p>
-                </div>
+                
             </div>
         </main>
 <footer>
